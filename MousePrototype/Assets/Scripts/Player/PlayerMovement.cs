@@ -27,7 +27,7 @@ public class PlayerMovement : MonoBehaviour
     {
         float xMove = Input.GetAxisRaw("Horizontal");
         float yMove = Input.GetAxisRaw("Vertical");
-        moveDir = ((-transform.forward * yMove) + (-transform.right * xMove)).normalized;
+        moveDir = ((transform.forward * yMove) + (transform.right * xMove)).normalized;
 
         if (Input.GetKeyDown(KeyCode.Space) && IsGround()) {
             rigidBody.AddForce(transform.up * jump, ForceMode.Impulse);
