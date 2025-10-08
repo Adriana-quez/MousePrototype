@@ -1,11 +1,60 @@
 ﻿title: Start
+position: -71,-218
 ---
-Wow!
-My first ever Yarn script in Unity!
+It's a dark and stormy night and your detective colleagues are no where to be seen. 
+Yet their belongings remain in the same position you last saw them. 
+Perhaps the janitor might know something...
 
--> Gosh!
--> Incredible!
--> I'm amazed!
+-> Ask the janitor about your colleagues
+    <<jump where_did_they_go>>
+-> Ask the janitor how he's doing
+    <<jump how_are_you>>
+===
+title: where_did_they_go
+position: 12,-37
+---
+Player: Hey you! Where did they go?
 
-Anyway, time to get writing!
+Janitor: Lil ol' me? Who's they? How'm I s'pposed to know? I'm just here to do my job.
+===
+title: how_are_you
+position: -203,-32
+---
+Player: Hey old friend, how are you tonight?
+
+Janitor: Hey man! I'm doin' 'aight. Can't lie I love a stormy night. Er'body leaves early, so my job's easier. What's keepin' you so late though?
+
+-> Tell him you're looking for your colleagues
+    <<jump looking_for_colleagues>>
+-> Tell him you're just doing some work
+    <<jump just_working>>
+===
+title: looking_for_colleagues
+position: -351,142
+---
+Player: Well me and the guys were going to grab a beer. We're all working on big cases, so I thought a little relaxation would be nice.
+
+Janitor: That's odd... I swear they went and disappeared around an hour ago. Made me think I was all alone.
+
+Player: Odd indeed. They wouldn't leave without me.
+
+-> Ask him if he saw a note 
+    <<jump did_you_pick_up_a_note>>
+===
+title: just_working
+position: -132,136
+---
+Player: Just doing my job... A detective's work never ends.
+
+Janitor: Jeez. I would neva wanna be you.
+===
+title: did_you_pick_up_a_note
+position: -358,365
+---
+Player: Did you maybe see a note while doing your rounds?
+
+//this would grant the character a key item
+Janitor: I don't think so... But then again, trash is just trash to me. I know ya'll as tight as three blind mice though, ain't no way they'd leave ya behind without sayin' sum. Take my key. Maybe they left a note for ya in their desk.
+
+You received Janitor's Key!
 ===
