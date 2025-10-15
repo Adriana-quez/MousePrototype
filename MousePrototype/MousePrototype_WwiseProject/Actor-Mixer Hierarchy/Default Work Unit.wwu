@@ -5,6 +5,7 @@
 			<ChildrenList>
 				<Sound Name="rain_ambience" ID="{2EC638FD-1873-4C98-9B65-437743F44C9E}" ShortID="243245494">
 					<PropertyList>
+						<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
 						<Property Name="Lowpass" Type="int16">
 							<ValueList>
 								<Value>41</Value>

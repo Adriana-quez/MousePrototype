@@ -3,7 +3,7 @@
 	<Events>
 		<WorkUnit Name="Default Work Unit" ID="{29A762FD-1C46-490B-98AC-EFFDD13A01EF}" PersistMode="Standalone">
 			<ChildrenList>
-				<Event Name="Play_RAINConc_InsJ_Ambience_Rain_Moderate_03_LOOP" ID="{82378FDB-D23B-475E-8DF3-EB2EC91E2DC5}">
+				<Event Name="Play_rain_ambience" ID="{82378FDB-D23B-475E-8DF3-EB2EC91E2DC5}">
 					<ChildrenList>
 						<Action Name="" ID="{6478D0BF-D4F0-42FD-9CD3-EFBBC074A222}" ShortID="9782793">
 							<ReferenceList>

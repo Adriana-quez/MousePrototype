@@ -6,7 +6,7 @@
 				<SoundcasterSession Name="soundcaster_01" ID="{35FC2519-8C8C-40ED-8020-9679463D19CA}">
 					<ModuleList>
 						<Module>
-							<ObjectRef Name="Play_RAINConc_InsJ_Ambience_Rain_Moderate_03_LOOP" ID="{82378FDB-D23B-475E-8DF3-EB2EC91E2DC5}" WorkUnitID="{29A762FD-1C46-490B-98AC-EFFDD13A01EF}"/>
+							<ObjectRef Name="Play_rain_ambience" ID="{82378FDB-D23B-475E-8DF3-EB2EC91E2DC5}" WorkUnitID="{29A762FD-1C46-490B-98AC-EFFDD13A01EF}"/>
 							<Position X="0" Y="0"/>
 						</Module>
 					</ModuleList>

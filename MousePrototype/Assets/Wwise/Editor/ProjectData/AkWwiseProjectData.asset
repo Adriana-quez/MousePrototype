@@ -24,7 +24,7 @@ MonoBehaviour:
     ParentPath: Virtual Acoustics\Default Work Unit
     guid: 115345c44d41a049be97ef10eefb1912
     GuidInternal: 
-    m_lastTime: -8584416598040535394
+    m_lastTime: -8584411232995265811
     List: []
   AuxBusWwu:
   - PhysicalPath: Master-Mixer Hierarchy\Default Work Unit.wwu
@@ -38,7 +38,7 @@ MonoBehaviour:
     ParentPath: Master-Mixer Hierarchy\Default Work Unit
     guid: 30ab27b9f7c7c744b0c7e38066d45c34
     GuidInternal: 
-    m_lastTime: -8584416598044242240
+    m_lastTime: -8584411232996879484
     List:
     - name: Master Audio Bus
       guid: d8a41415a61d2a41a17e75ca0c2149f3
@@ -66,8 +66,22 @@ MonoBehaviour:
     ParentPath: SoundBanks\Default Work Unit
     guid: ed1439af72c35f428e308b4f43c8c49a
     GuidInternal: 
-    m_lastTime: -8584416598041266580
-    List: []
+    m_lastTime: -8584410722461455821
+    List:
+    - name: main
+      guid: 686492c25baf8f43b35f2e9a5b011dfd
+      id: 3161908922
+      PathAndIcons:
+      - ElementName: SoundBanks
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: ed1439af72c35f428e308b4f43c8c49a
+      - ElementName: main
+        ObjectType: 7
+        guid: 686492c25baf8f43b35f2e9a5b011dfd
+      Path: SoundBanks\Default Work Unit\main
   EventWwu:
   - PhysicalPath: Events\Default Work Unit.wwu
     PathAndIcons:
@@ -80,8 +94,25 @@ MonoBehaviour:
     ParentPath: Events\Default Work Unit
     guid: fd62a729461c0b4998aceffdd13a01ef
     GuidInternal: 
-    m_lastTime: -8584416598043906505
-    List: []
+    m_lastTime: -8584410722461686841
+    List:
+    - name: Play_rain_ambience
+      guid: db8f37823bd25e478df3eb2ec91e2dc5
+      id: 1843208731
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: fd62a729461c0b4998aceffdd13a01ef
+      - ElementName: Play_rain_ambience
+        ObjectType: 3
+        guid: db8f37823bd25e478df3eb2ec91e2dc5
+      Path: Events\Default Work Unit\Play_rain_ambience
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
   RtpcWwu:
   - PhysicalPath: Game Parameters\Default Work Unit.wwu
     PathAndIcons:
@@ -94,7 +125,7 @@ MonoBehaviour:
     ParentPath: Game Parameters\Default Work Unit
     guid: 75470e3003a87042a9e72f462f61cfcd
     GuidInternal: 
-    m_lastTime: -8584416598042690840
+    m_lastTime: -8584411232997134060
     List: []
   StateWwu:
   - PhysicalPath: States\Default Work Unit.wwu
@@ -108,7 +139,7 @@ MonoBehaviour:
     ParentPath: States\Default Work Unit
     guid: 00ea70faa699d9418d8d740cb6ff5689
     GuidInternal: 
-    m_lastTime: -8584416598042851361
+    m_lastTime: -8584411232995593675
     List: []
   SwitchWwu:
   - PhysicalPath: Switches\Default Work Unit.wwu
@@ -122,7 +153,7 @@ MonoBehaviour:
     ParentPath: Switches\Default Work Unit
     guid: 14a5e16bdf5dfc409180c343fda4844b
     GuidInternal: 
-    m_lastTime: -8584416598042535772
+    m_lastTime: -8584411232995463552
     List: []
   TriggerWwu:
   - PhysicalPath: Triggers\Default Work Unit.wwu
@@ -136,7 +167,7 @@ MonoBehaviour:
     ParentPath: Triggers\Default Work Unit
     guid: 972164c5661a804fa62989b41d3f1fb3
     GuidInternal: 
-    m_lastTime: -8584416598041951288
+    m_lastTime: -8584411232995363017
     List: []
   ExpandedFileSystemItemIds: 
   ExpandedWaapiItemIds: 
