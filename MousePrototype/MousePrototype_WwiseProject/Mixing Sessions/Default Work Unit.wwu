@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{93DB0C41-E9B7-4A38-8188-AE3C804F45BE}" SchemaVersion="123">
+	<MixingSessions>
+		<WorkUnit Name="Default Work Unit" ID="{93DB0C41-E9B7-4A38-8188-AE3C804F45BE}" PersistMode="Standalone">
+			<ChildrenList>
+				<MixingSession Name="mix_01" ID="{062F7ED2-01D1-46F5-809B-FFE120894AA7}">
+					<ObjectList>
+						<ObjectRef Name="rain_ambience" ID="{2EC638FD-1873-4C98-9B65-437743F44C9E}" WorkUnitID="{A4EBFF52-0A02-4328-9A6B-4C84AD43DD69}"/>
+					</ObjectList>
+				</MixingSession>
+			</ChildrenList>
+		</WorkUnit>
+	</MixingSessions>
+</WwiseDocument>

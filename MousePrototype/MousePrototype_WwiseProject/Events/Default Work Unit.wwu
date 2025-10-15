@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{29A762FD-1C46-490B-98AC-EFFDD13A01EF}" SchemaVersion="123">
+	<Events>
+		<WorkUnit Name="Default Work Unit" ID="{29A762FD-1C46-490B-98AC-EFFDD13A01EF}" PersistMode="Standalone">
+			<ChildrenList>
+				<Event Name="Play_rain_ambience" ID="{82378FDB-D23B-475E-8DF3-EB2EC91E2DC5}">
+					<ChildrenList>
+						<Action Name="" ID="{6478D0BF-D4F0-42FD-9CD3-EFBBC074A222}" ShortID="9782793">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="rain_ambience" ID="{2EC638FD-1873-4C98-9B65-437743F44C9E}" WorkUnitID="{A4EBFF52-0A02-4328-9A6B-4C84AD43DD69}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

@@ -1,0 +1,36 @@
+{
+ "ProjectInfo": {
+  "Project": {
+   "Name": "MousePrototype_WwiseProject",
+   "GUID": "{CF5A5665-211E-4ADF-AA47-2D62D415151F}",
+   "Generator": "2024.1.8.8898"
+  },
+  "CacheRoot": "../../../../MousePrototype_WwiseProject/.cache",
+  "Platforms": [
+   {
+    "Name": "Mac",
+    "GUID": "{11E1FA27-3AE3-4B75-8007-76B88B45B4C3}",
+    "BasePlatform": "Mac",
+    "BasePlatformGUID": "{9C6217D5-DD11-4795-87C1-6CE02853C540}",
+    "Path": "../../../../MousePrototype_WwiseProject/GeneratedSoundBanks/Mac"
+   },
+   {
+    "Name": "Windows",
+    "GUID": "{8CCA192A-2B3D-4AEF-A377-EEEC33F2D446}",
+    "BasePlatform": "Windows",
+    "BasePlatformGUID": "{6E0CB257-C6C8-4C5C-8366-2740DFC441EB}",
+    "Path": "../../../../MousePrototype_WwiseProject/GeneratedSoundBanks/Windows"
+   }
+  ],
+  "Languages": [
+   {
+    "Name": "English(US)",
+    "Id": "684519430",
+    "GUID": "{993D9ABD-2FEA-4E14-945E-68B4958C9D5C}",
+    "Default": "true",
+    "UseAsStandIn": "true"
+   }
+  ],
+  "FileHash": "{880F4947-733F-E19A-7994-7060CF7971A8}"
+ }
+}

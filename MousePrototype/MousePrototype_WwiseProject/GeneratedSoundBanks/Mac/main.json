@@ -1,0 +1,47 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Mac",
+  "BasePlatform": "Mac",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "154",
+  "SoundBanks": [
+   {
+    "Id": "3161908922",
+    "Type": "User",
+    "GUID": "{C2926468-AF5B-438F-B35F-2E9A5B011DFD}",
+    "Language": "SFX",
+    "Hash": "{A81B7845-8AC0-BBD8-196F-E0A7D7A0610C}",
+    "ObjectPath": "\\SoundBanks\\Default Work Unit\\main",
+    "ShortName": "main",
+    "Path": "main.bnk",
+    "Media": [
+     {
+      "Id": "411313536",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "RAINConc_InsJ_Ambience_Rain_Moderate_03_LOOP.wav",
+      "CachePath": "0F/{0F5BD7AD-B810-428B-3790-F85861DA8B71}.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "4209516081",
+      "Name": "Play_RAINConc_InsJ_Ambience_Rain_Moderate_03_LOOP",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_RAINConc_InsJ_Ambience_Rain_Moderate_03_LOOP",
+      "GUID": "{82378FDB-D23B-475E-8DF3-EB2EC91E2DC5}",
+      "DurationType": "OneShot",
+      "DurationMin": "30.000782",
+      "DurationMax": "30.000782",
+      "MediaRefs": [
+       {
+        "Id": "411313536"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "FileHash": "{8E9991F5-3672-51C5-DB0B-845A6E7E546A}"
+ }
+}

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{C5ED169E-A8C0-4CF1-A23A-638FFBEB9389}" SchemaVersion="123">
+	<SoundcasterSessions>
+		<WorkUnit Name="Default Work Unit" ID="{C5ED169E-A8C0-4CF1-A23A-638FFBEB9389}" PersistMode="Standalone">
+			<ChildrenList>
+				<SoundcasterSession Name="soundcaster_01" ID="{35FC2519-8C8C-40ED-8020-9679463D19CA}">
+					<ModuleList>
+						<Module>
+							<ObjectRef Name="Play_rain_ambience" ID="{82378FDB-D23B-475E-8DF3-EB2EC91E2DC5}" WorkUnitID="{29A762FD-1C46-490B-98AC-EFFDD13A01EF}"/>
+							<Position X="0" Y="0"/>
+						</Module>
+					</ModuleList>
+					<RTPCValueList ShowAll="true"/>
+					<CurrentStateList ShowAll="true"/>
+					<CurrentSwitchList ShowAll="true"/>
+				</SoundcasterSession>
+			</ChildrenList>
+		</WorkUnit>
+	</SoundcasterSessions>
+</WwiseDocument>

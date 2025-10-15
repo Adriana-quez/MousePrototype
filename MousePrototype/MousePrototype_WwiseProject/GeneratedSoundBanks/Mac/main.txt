@@ -1,0 +1,6 @@
+Event	ID	Name			Wwise Object Path	Notes
+	4209516081	Play_RAINConc_InsJ_Ambience_Rain_Moderate_03_LOOP			\Default Work Unit\Play_RAINConc_InsJ_Ambience_Rain_Moderate_03_LOOP	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	411313536	rain_ambience	C:\Users\carol\OneDrive - Drexel University\Documents\MousePrototype\MousePrototype\MousePrototype_WwiseProject\.cache\0F\{0F5BD7AD-B810-428B-3790-F85861DA8B71}.wem		\Actor-Mixer Hierarchy\Default Work Unit\rain_ambience		5760292
+
