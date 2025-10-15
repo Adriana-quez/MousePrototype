@@ -7010,6 +7010,8 @@ GameObject:
   - component: {fileID: 862439654}
   - component: {fileID: 862439658}
   - component: {fileID: 862439659}
+  - component: {fileID: 862439660}
+  - component: {fileID: 862439661}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -7106,8 +7108,8 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 330585546}
   - {fileID: 464950615}
+  - {fileID: 330585546}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &862439658
@@ -7154,6 +7156,37 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 112
   m_CollisionDetection: 0
+--- !u!114 &862439660
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 862439653}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 57ff81d313f9ddd41a3904bc37598671, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  TerrainScannerPrefab: {fileID: 3042569832658202185, guid: addfa7fb31e21ae42a92e0203d5c8dea, type: 3}
+  duration: 5
+  size: 300
+--- !u!114 &862439661
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 862439653}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 46119c29d42fcd74c805f7ecdb9f411d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  spotlightMaterial: {fileID: -876546973899608171, guid: 0c7a1f9a2c3d7fd4c96cf69c635396e3, type: 3}
+  positionProperty: _Spotlight_Position
+  spotlightTarget: {fileID: 862439657}
+  heightOffset: 1
 --- !u!1 &867360623
 GameObject:
   m_ObjectHideFlags: 0
@@ -16626,63 +16659,6 @@ MonoBehaviour:
   m_SelectedFaces: 
   m_SelectedEdges: []
   m_SelectedVertices: 
---- !u!1001 &4805026327807854733
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    serializedVersion: 3
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 3042569832658202185, guid: addfa7fb31e21ae42a92e0203d5c8dea, type: 3}
-      propertyPath: m_Name
-      value: VFX_TerrainScanner
-      objectReference: {fileID: 0}
-    - target: {fileID: 5367658854466162667, guid: addfa7fb31e21ae42a92e0203d5c8dea, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 5367658854466162667, guid: addfa7fb31e21ae42a92e0203d5c8dea, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5367658854466162667, guid: addfa7fb31e21ae42a92e0203d5c8dea, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: -8
-      objectReference: {fileID: 0}
-    - target: {fileID: 5367658854466162667, guid: addfa7fb31e21ae42a92e0203d5c8dea, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 5367658854466162667, guid: addfa7fb31e21ae42a92e0203d5c8dea, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5367658854466162667, guid: addfa7fb31e21ae42a92e0203d5c8dea, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5367658854466162667, guid: addfa7fb31e21ae42a92e0203d5c8dea, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5367658854466162667, guid: addfa7fb31e21ae42a92e0203d5c8dea, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5367658854466162667, guid: addfa7fb31e21ae42a92e0203d5c8dea, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5367658854466162667, guid: addfa7fb31e21ae42a92e0203d5c8dea, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-    m_RemovedGameObjects: []
-    m_AddedGameObjects: []
-    m_AddedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: addfa7fb31e21ae42a92e0203d5c8dea, type: 3}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
@@ -16695,5 +16671,4 @@ SceneRoots:
   - {fileID: 784930239}
   - {fileID: 650493170}
   - {fileID: 1777430064}
-  - {fileID: 4805026327807854733}
   - {fileID: 1674092372}
