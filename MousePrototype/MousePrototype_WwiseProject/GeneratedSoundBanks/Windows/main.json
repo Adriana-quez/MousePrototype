@@ -10,38 +10,124 @@
     "Type": "User",
     "GUID": "{C2926468-AF5B-438F-B35F-2E9A5B011DFD}",
     "Language": "SFX",
-    "Hash": "{A81B7845-8AC0-BBD8-196F-E0A7D7A0610C}",
+    "Hash": "{24A0FA37-5C80-3E84-350F-9F04EB1B1420}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\main",
     "ShortName": "main",
     "Path": "main.bnk",
     "Media": [
+     {
+      "Id": "112631759",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "ANF108.wav",
+      "CachePath": "4D/{4DB9196F-CA4D-1AA0-33B4-ADEC26D3448E}.wem"
+     },
+     {
+      "Id": "140038498",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "ANF003.wav",
+      "CachePath": "6E/{6E20D315-A0C1-CDB8-FB0B-1F46A3A9C0F6}.wem"
+     },
+     {
+      "Id": "163512703",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "ANF108.wav",
+      "CachePath": "0F/{0F145F03-A777-297F-5673-8B59AA94B6C3}.wem"
+     },
      {
       "Id": "411313536",
       "Language": "SFX",
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "RAINConc_InsJ_Ambience_Rain_Moderate_03_LOOP.wav",
-      "CachePath": "0F/{0F5BD7AD-B810-428B-3790-F85861DA8B71}.wem"
+      "CachePath": "0A/{0A3F7234-B8A3-BE14-6C4E-BF5D44CF336B}.wem"
+     },
+     {
+      "Id": "462458270",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "ANF003.wav",
+      "CachePath": "CD/{CD1B0ED4-A293-AB63-3085-99C1873A091C}.wem"
+     },
+     {
+      "Id": "973829193",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "ANF108.wav",
+      "CachePath": "EB/{EB8DB392-B597-818E-721F-C2AD858B4476}.wem"
+     },
+     {
+      "Id": "1044648461",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "ANF003.wav",
+      "CachePath": "A7/{A7C41E6E-06B5-509E-9927-30803A564717}.wem"
      }
     ],
     "Events": [
      {
-      "Id": "4209516081",
-      "Name": "Play_RAINConc_InsJ_Ambience_Rain_Moderate_03_LOOP",
-      "ObjectPath": "\\Events\\Default Work Unit\\Play_RAINConc_InsJ_Ambience_Rain_Moderate_03_LOOP",
-      "GUID": "{82378FDB-D23B-475E-8DF3-EB2EC91E2DC5}",
+      "Id": "3253439308",
+      "Name": "Play_mouse_footstep_container",
+      "ObjectPath": "\\Events\\Default Work Unit\\footsteps\\Play_mouse_footstep_container",
+      "GUID": "{9D1F15CE-556F-4CE5-A6BB-319F7498B4DE}",
       "DurationType": "OneShot",
-      "DurationMin": "30.000782",
-      "DurationMax": "30.000782",
+      "DurationMin": "0.43853006",
+      "DurationMax": "0.53627384",
+      "MediaRefs": [
+       {
+        "Id": "112631759"
+       },
+       {
+        "Id": "163512703"
+       },
+       {
+        "Id": "973829193"
+       }
+      ]
+     },
+     {
+      "Id": "1843208731",
+      "Name": "Play_rain_ambience",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_rain_ambience",
+      "GUID": "{82378FDB-D23B-475E-8DF3-EB2EC91E2DC5}",
+      "DurationType": "Infinite",
       "MediaRefs": [
        {
         "Id": "411313536"
+       }
+      ]
+     },
+     {
+      "Id": "2470507766",
+      "Name": "Play_vulture_footstep_container",
+      "ObjectPath": "\\Events\\Default Work Unit\\footsteps\\Play_vulture_footstep_container",
+      "GUID": "{72C9BF93-9E7E-4E4B-96AB-7123277172DC}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.45548156",
+      "DurationMax": "0.5991928",
+      "MediaRefs": [
+       {
+        "Id": "140038498"
+       },
+       {
+        "Id": "462458270"
+       },
+       {
+        "Id": "1044648461"
        }
       ]
      }
     ]
    }
   ],
-  "FileHash": "{554DC4E4-6E96-4AD4-105A-89EBC2D3B97C}"
+  "FileHash": "{A73FFCB6-A44C-2F32-07DD-F37FAA9330D1}"
  }
 }

@@ -13,7 +13,9 @@ namespace AK
 {
     namespace EVENTS
     {
-        static const AkUniqueID PLAY_RAINCONC_INSJ_AMBIENCE_RAIN_MODERATE_03_LOOP = 4209516081U;
+        static const AkUniqueID PLAY_MOUSE_FOOTSTEP_CONTAINER = 3253439308U;
+        static const AkUniqueID PLAY_RAIN_AMBIENCE = 1843208731U;
+        static const AkUniqueID PLAY_VULTURE_FOOTSTEP_CONTAINER = 2470507766U;
     } // namespace EVENTS
 
     namespace BANKS

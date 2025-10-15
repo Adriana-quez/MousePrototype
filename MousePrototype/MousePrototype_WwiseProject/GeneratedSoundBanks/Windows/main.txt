@@ -1,6 +1,14 @@
 Event	ID	Name			Wwise Object Path	Notes
-	4209516081	Play_RAINConc_InsJ_Ambience_Rain_Moderate_03_LOOP			\Default Work Unit\Play_RAINConc_InsJ_Ambience_Rain_Moderate_03_LOOP	
+	1843208731	Play_rain_ambience			\Default Work Unit\Play_rain_ambience	
+	2470507766	Play_vulture_footstep_container			\Default Work Unit\footsteps\Play_vulture_footstep_container	
+	3253439308	Play_mouse_footstep_container			\Default Work Unit\footsteps\Play_mouse_footstep_container	
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
-	411313536	rain_ambience	C:\Users\carol\OneDrive - Drexel University\Documents\MousePrototype\MousePrototype\MousePrototype_WwiseProject\.cache\0F\{0F5BD7AD-B810-428B-3790-F85861DA8B71}.wem		\Actor-Mixer Hierarchy\Default Work Unit\rain_ambience		5760292
+	112631759	mouse_footstep02	C:\Users\carol\OneDrive - Drexel University\Documents\MousePrototype\MousePrototype\MousePrototype_WwiseProject\.cache\4D\{4DB9196F-CA4D-1AA0-33B4-ADEC26D3448E}.wem		\Actor-Mixer Hierarchy\Default Work Unit\mouse_footstep_container\mouse_footstep02		100160
+	140038498	bird_footstep01	C:\Users\carol\OneDrive - Drexel University\Documents\MousePrototype\MousePrototype\MousePrototype_WwiseProject\.cache\6E\{6E20D315-A0C1-CDB8-FB0B-1F46A3A9C0F6}.wem		\Actor-Mixer Hierarchy\Default Work Unit\vulture_footstep_container\bird_footstep01		87548
+	163512703	mouse_footstep01	C:\Users\carol\OneDrive - Drexel University\Documents\MousePrototype\MousePrototype\MousePrototype_WwiseProject\.cache\0F\{0F145F03-A777-297F-5673-8B59AA94B6C3}.wem		\Actor-Mixer Hierarchy\Default Work Unit\mouse_footstep_container\mouse_footstep01		84292
+	411313536	rain_ambience	C:\Users\carol\OneDrive - Drexel University\Documents\MousePrototype\MousePrototype\MousePrototype_WwiseProject\.cache\0A\{0A3F7234-B8A3-BE14-6C4E-BF5D44CF336B}.wem		\Actor-Mixer Hierarchy\Default Work Unit\rain_ambience		5760292
+	462458270	bird_footstep02	C:\Users\carol\OneDrive - Drexel University\Documents\MousePrototype\MousePrototype\MousePrototype_WwiseProject\.cache\CD\{CD1B0ED4-A293-AB63-3085-99C1873A091C}.wem		\Actor-Mixer Hierarchy\Default Work Unit\vulture_footstep_container\bird_footstep02		94108
+	973829193	mouse_footstep03	C:\Users\carol\OneDrive - Drexel University\Documents\MousePrototype\MousePrototype\MousePrototype_WwiseProject\.cache\EB\{EB8DB392-B597-818E-721F-C2AD858B4476}.wem		\Actor-Mixer Hierarchy\Default Work Unit\mouse_footstep_container\mouse_footstep03		103060
+	1044648461	bird_footstep03	C:\Users\carol\OneDrive - Drexel University\Documents\MousePrototype\MousePrototype\MousePrototype_WwiseProject\.cache\A7\{A7C41E6E-06B5-509E-9927-30803A564717}.wem		\Actor-Mixer Hierarchy\Default Work Unit\vulture_footstep_container\bird_footstep03		115140
 

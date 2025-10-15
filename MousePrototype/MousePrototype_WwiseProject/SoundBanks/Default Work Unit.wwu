@@ -5,7 +5,8 @@
 			<ChildrenList>
 				<SoundBank Name="main" ID="{C2926468-AF5B-438F-B35F-2E9A5B011DFD}">
 					<ObjectInclusionList>
-						<ObjectRef Name="Play_rain_ambience" ID="{82378FDB-D23B-475E-8DF3-EB2EC91E2DC5}" WorkUnitID="{29A762FD-1C46-490B-98AC-EFFDD13A01EF}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="footsteps" ID="{BC9D0888-D344-42ED-BB1E-20F1D73B4F7C}" WorkUnitID="{29A762FD-1C46-490B-98AC-EFFDD13A01EF}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="rain_ambience" ID="{2EC638FD-1873-4C98-9B65-437743F44C9E}" WorkUnitID="{A4EBFF52-0A02-4328-9A6B-4C84AD43DD69}" Origin="Manual" Filter="7"/>
 					</ObjectInclusionList>
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>

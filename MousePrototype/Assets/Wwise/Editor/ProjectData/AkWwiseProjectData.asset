@@ -24,7 +24,7 @@ MonoBehaviour:
     ParentPath: Virtual Acoustics\Default Work Unit
     guid: 115345c44d41a049be97ef10eefb1912
     GuidInternal: 
-    m_lastTime: -8584411232995265811
+    m_lastTime: -8584410718002716418
     List: []
   AuxBusWwu:
   - PhysicalPath: Master-Mixer Hierarchy\Default Work Unit.wwu
@@ -38,7 +38,7 @@ MonoBehaviour:
     ParentPath: Master-Mixer Hierarchy\Default Work Unit
     guid: 30ab27b9f7c7c744b0c7e38066d45c34
     GuidInternal: 
-    m_lastTime: -8584411232996879484
+    m_lastTime: -8584410718005837093
     List:
     - name: Master Audio Bus
       guid: d8a41415a61d2a41a17e75ca0c2149f3
@@ -66,7 +66,7 @@ MonoBehaviour:
     ParentPath: SoundBanks\Default Work Unit
     guid: ed1439af72c35f428e308b4f43c8c49a
     GuidInternal: 
-    m_lastTime: -8584410722461455821
+    m_lastTime: -8584410696205449910
     List:
     - name: main
       guid: 686492c25baf8f43b35f2e9a5b011dfd
@@ -94,8 +94,45 @@ MonoBehaviour:
     ParentPath: Events\Default Work Unit
     guid: fd62a729461c0b4998aceffdd13a01ef
     GuidInternal: 
-    m_lastTime: -8584410722461686841
+    m_lastTime: -8584410668799213386
     List:
+    - name: footsteps
+      guid: 88089dbc44d3ed42bb1e20f1d73b4f7c
+      id: 2385628198
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: fd62a729461c0b4998aceffdd13a01ef
+      - ElementName: footsteps
+        ObjectType: 4
+        guid: 88089dbc44d3ed42bb1e20f1d73b4f7c
+      Path: Events\Default Work Unit\footsteps
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Play_mouse_footstep_container
+      guid: ce151f9d6f55e54ca6bb319f7498b4de
+      id: 3253439308
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: fd62a729461c0b4998aceffdd13a01ef
+      - ElementName: footsteps
+        ObjectType: 4
+        guid: 88089dbc44d3ed42bb1e20f1d73b4f7c
+      - ElementName: Play_mouse_footstep_container
+        ObjectType: 3
+        guid: ce151f9d6f55e54ca6bb319f7498b4de
+      Path: Events\Default Work Unit\footsteps\Play_mouse_footstep_container
+      maxAttenuation: 0
+      maxDuration: 0.53627384
+      minDuration: 0.43853006
     - name: Play_rain_ambience
       guid: db8f37823bd25e478df3eb2ec91e2dc5
       id: 1843208731
@@ -111,8 +148,28 @@ MonoBehaviour:
         guid: db8f37823bd25e478df3eb2ec91e2dc5
       Path: Events\Default Work Unit\Play_rain_ambience
       maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
+      maxDuration: 0
+      minDuration: 0
+    - name: Play_vulture_footstep_container
+      guid: 93bfc9727e9e4b4e96ab7123277172dc
+      id: 2470507766
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: fd62a729461c0b4998aceffdd13a01ef
+      - ElementName: footsteps
+        ObjectType: 4
+        guid: 88089dbc44d3ed42bb1e20f1d73b4f7c
+      - ElementName: Play_vulture_footstep_container
+        ObjectType: 3
+        guid: 93bfc9727e9e4b4e96ab7123277172dc
+      Path: Events\Default Work Unit\footsteps\Play_vulture_footstep_container
+      maxAttenuation: 0
+      maxDuration: 0.5991928
+      minDuration: 0.45548156
   RtpcWwu:
   - PhysicalPath: Game Parameters\Default Work Unit.wwu
     PathAndIcons:
@@ -125,7 +182,7 @@ MonoBehaviour:
     ParentPath: Game Parameters\Default Work Unit
     guid: 75470e3003a87042a9e72f462f61cfcd
     GuidInternal: 
-    m_lastTime: -8584411232997134060
+    m_lastTime: -8584410718006990372
     List: []
   StateWwu:
   - PhysicalPath: States\Default Work Unit.wwu
@@ -139,7 +196,7 @@ MonoBehaviour:
     ParentPath: States\Default Work Unit
     guid: 00ea70faa699d9418d8d740cb6ff5689
     GuidInternal: 
-    m_lastTime: -8584411232995593675
+    m_lastTime: -8584410718002736415
     List: []
   SwitchWwu:
   - PhysicalPath: Switches\Default Work Unit.wwu
@@ -153,7 +210,7 @@ MonoBehaviour:
     ParentPath: Switches\Default Work Unit
     guid: 14a5e16bdf5dfc409180c343fda4844b
     GuidInternal: 
-    m_lastTime: -8584411232995463552
+    m_lastTime: -8584410718002726329
     List: []
   TriggerWwu:
   - PhysicalPath: Triggers\Default Work Unit.wwu
@@ -167,10 +224,10 @@ MonoBehaviour:
     ParentPath: Triggers\Default Work Unit
     guid: 972164c5661a804fa62989b41d3f1fb3
     GuidInternal: 
-    m_lastTime: -8584411232995363017
+    m_lastTime: -8584410718002726329
     List: []
   ExpandedFileSystemItemIds: 
-  ExpandedWaapiItemIds: 
+  ExpandedWaapiItemIds: 0500000006000000070000000b0000000c000000
   AutoSyncSelection: 0
   autoPopulateEnabled: 1
   currentDataSource: 0

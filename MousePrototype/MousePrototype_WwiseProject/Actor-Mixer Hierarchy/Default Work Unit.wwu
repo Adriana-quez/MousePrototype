@@ -11,6 +11,11 @@
 								<Value>41</Value>
 							</ValueList>
 						</Property>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-15</Value>
+							</ValueList>
+						</Property>
 					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Conversion">
@@ -31,64 +36,6 @@
 					</ChildrenList>
 					<ActiveSourceList>
 						<ActiveSource Name="RAINConc_InsJ_Ambience_Rain_Moderate_03_LOOP" ID="{DFA7A852-4809-467B-AD33-D6E6CA1E6E94}" Platform="Linked"/>
-					</ActiveSourceList>
-				</Sound>
-				<Sound Name="bird_footstep" ID="{F379EC02-79A7-4927-8E82-E6D9FEE64D1C}" ShortID="940937439">
-					<PropertyList>
-						<Property Name="Lowpass" Type="int16">
-							<ValueList>
-								<Value>8</Value>
-							</ValueList>
-						</Property>
-					</PropertyList>
-					<ReferenceList>
-						<Reference Name="Conversion">
-							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{69F70639-6474-4F16-BE2A-C5F278C26A98}"/>
-						</Reference>
-						<Reference Name="OutputBus">
-							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B927AB30-C7F7-44C7-B0C7-E38066D45C34}"/>
-						</Reference>
-					</ReferenceList>
-					<ChildrenList>
-						<AudioFileSource Name="ANF003" ID="{97665745-D5F5-4EDA-8BB7-6B44A1D31637}">
-							<Language>SFX</Language>
-							<AudioFile>ANF003.wav</AudioFile>
-							<MediaIDList>
-								<MediaID ID="140038498"/>
-							</MediaIDList>
-						</AudioFileSource>
-					</ChildrenList>
-					<ActiveSourceList>
-						<ActiveSource Name="ANF003" ID="{97665745-D5F5-4EDA-8BB7-6B44A1D31637}" Platform="Linked"/>
-					</ActiveSourceList>
-				</Sound>
-				<Sound Name="mouse_footstep" ID="{AB340B69-DC0C-4AB7-BBC8-544081EDEF31}" ShortID="510809239">
-					<PropertyList>
-						<Property Name="Highpass" Type="int16">
-							<ValueList>
-								<Value>37</Value>
-							</ValueList>
-						</Property>
-					</PropertyList>
-					<ReferenceList>
-						<Reference Name="Conversion">
-							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{69F70639-6474-4F16-BE2A-C5F278C26A98}"/>
-						</Reference>
-						<Reference Name="OutputBus">
-							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B927AB30-C7F7-44C7-B0C7-E38066D45C34}"/>
-						</Reference>
-					</ReferenceList>
-					<ChildrenList>
-						<AudioFileSource Name="ANF108" ID="{9DCF065C-A7AD-4946-8D22-072FA0500BA7}">
-							<Language>SFX</Language>
-							<AudioFile>ANF108.wav</AudioFile>
-							<MediaIDList>
-								<MediaID ID="973829193"/>
-							</MediaIDList>
-						</AudioFileSource>
-					</ChildrenList>
-					<ActiveSourceList>
-						<ActiveSource Name="ANF108" ID="{9DCF065C-A7AD-4946-8D22-072FA0500BA7}" Platform="Linked"/>
 					</ActiveSourceList>
 				</Sound>
 				<Sound Name="key_rattle" ID="{89C4230E-4AC6-409C-AA3A-B2C551D4A8EB}" ShortID="748426131">
@@ -113,6 +60,260 @@
 						<ActiveSource Name="Foley Chains Rattle 02" ID="{FF62623F-B9EF-4D8F-A50E-ABE4D35E1D32}" Platform="Linked"/>
 					</ActiveSourceList>
 				</Sound>
+				<RandomSequenceContainer Name="mouse_footstep_container" ID="{7C1A75AF-02E8-4C87-8678-F8B9937C3675}" ShortID="437701454">
+					<PropertyList>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-20</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{69F70639-6474-4F16-BE2A-C5F278C26A98}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B927AB30-C7F7-44C7-B0C7-E38066D45C34}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Sound Name="mouse_footstep01" ID="{AB340B69-DC0C-4AB7-BBC8-544081EDEF31}" ShortID="510809239">
+							<PropertyList>
+								<Property Name="Highpass" Type="int16">
+									<ValueList>
+										<Value>37</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{69F70639-6474-4F16-BE2A-C5F278C26A98}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B927AB30-C7F7-44C7-B0C7-E38066D45C34}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="ANF108" ID="{9DCF065C-A7AD-4946-8D22-072FA0500BA7}">
+									<PropertyList>
+										<Property Name="FadeInDuration" Type="Real64" Value="0.0300213396460392"/>
+										<Property Name="FadeOutDuration" Type="Real64" Value="0.0521423267536471"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+										<Property Name="TrimBegin" Type="Real64" Value="0.806675058305198"/>
+										<Property Name="TrimEnd" Type="Real64" Value="1.24520512901008"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>ANF108.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="163512703"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="ANF108" ID="{9DCF065C-A7AD-4946-8D22-072FA0500BA7}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="mouse_footstep02" ID="{84C36E47-2240-4A7D-AF67-B8969A448B3B}" ShortID="703055301">
+							<PropertyList>
+								<Property Name="Highpass" Type="int16">
+									<ValueList>
+										<Value>37</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{69F70639-6474-4F16-BE2A-C5F278C26A98}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B927AB30-C7F7-44C7-B0C7-E38066D45C34}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="ANF108" ID="{0601326C-888A-498A-897B-8358852405EB}">
+									<PropertyList>
+										<Property Name="FadeInDuration" Type="Real64" Value="0.0347615511690975"/>
+										<Property Name="FadeOutDuration" Type="Real64" Value="0.0799515676889246"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+										<Property Name="TrimBegin" Type="Real64" Value="7.32024800239348"/>
+										<Property Name="TrimEnd" Type="Real64" Value="7.84141917345983"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>ANF108.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="112631759"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="ANF108" ID="{0601326C-888A-498A-897B-8358852405EB}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="mouse_footstep03" ID="{FA675457-FBE2-4151-A041-57926D3C77BB}" ShortID="27137128">
+							<PropertyList>
+								<Property Name="Highpass" Type="int16">
+									<ValueList>
+										<Value>37</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{69F70639-6474-4F16-BE2A-C5F278C26A98}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B927AB30-C7F7-44C7-B0C7-E38066D45C34}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="ANF108" ID="{BEB34B85-DC86-4854-A912-E96B9978D449}">
+									<PropertyList>
+										<Property Name="FadeInDuration" Type="Real64" Value="0.0976770859296963"/>
+										<Property Name="FadeOutDuration" Type="Real64" Value="0.198227027327913"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+										<Property Name="TrimBegin" Type="Real64" Value="2.31548587566961"/>
+										<Property Name="TrimEnd" Type="Real64" Value="2.85175971262897"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>ANF108.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="973829193"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="ANF108" ID="{BEB34B85-DC86-4854-A912-E96B9978D449}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+				</RandomSequenceContainer>
+				<RandomSequenceContainer Name="vulture_footstep_container" ID="{CD4C9AED-FE24-4DFE-BEC9-FD996568DCE8}" ShortID="211391287">
+					<PropertyList>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-3</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{69F70639-6474-4F16-BE2A-C5F278C26A98}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B927AB30-C7F7-44C7-B0C7-E38066D45C34}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Sound Name="bird_footstep02" ID="{02DCF3C6-076A-4BEF-9A93-BA4E5086E5B5}" ShortID="212045021">
+							<PropertyList>
+								<Property Name="Lowpass" Type="int16">
+									<ValueList>
+										<Value>8</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{69F70639-6474-4F16-BE2A-C5F278C26A98}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B927AB30-C7F7-44C7-B0C7-E38066D45C34}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="ANF003" ID="{20CA5806-56D0-440A-B9A1-5C3A67156FD2}">
+									<PropertyList>
+										<Property Name="FadeInDuration" Type="Real64" Value="0.0988018101900111"/>
+										<Property Name="FadeOutDuration" Type="Real64" Value="0.115310467082519"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+										<Property Name="TrimBegin" Type="Real64" Value="2.79915133658854"/>
+										<Property Name="TrimEnd" Type="Real64" Value="3.28881258576021"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>ANF003.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="462458270"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="ANF003" ID="{20CA5806-56D0-440A-B9A1-5C3A67156FD2}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="bird_footstep01" ID="{F379EC02-79A7-4927-8E82-E6D9FEE64D1C}" ShortID="940937439">
+							<PropertyList>
+								<Property Name="Lowpass" Type="int16">
+									<ValueList>
+										<Value>8</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{69F70639-6474-4F16-BE2A-C5F278C26A98}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B927AB30-C7F7-44C7-B0C7-E38066D45C34}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="ANF003" ID="{97665745-D5F5-4EDA-8BB7-6B44A1D31637}">
+									<PropertyList>
+										<Property Name="FadeInDuration" Type="Real64" Value="0.0988018101900111"/>
+										<Property Name="FadeOutDuration" Type="Real64" Value="0.140073452421282"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+										<Property Name="TrimBegin" Type="Real64" Value="0.0825819422340977"/>
+										<Property Name="TrimEnd" Type="Real64" Value="0.538063500989333"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>ANF003.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="140038498"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="ANF003" ID="{97665745-D5F5-4EDA-8BB7-6B44A1D31637}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="bird_footstep03" ID="{E049CB6E-3FC9-4470-AB9C-C54591E38EA6}" ShortID="67707539">
+							<PropertyList>
+								<Property Name="Lowpass" Type="int16">
+									<ValueList>
+										<Value>8</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{69F70639-6474-4F16-BE2A-C5F278C26A98}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B927AB30-C7F7-44C7-B0C7-E38066D45C34}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="ANF003" ID="{276A588C-79E0-43B7-936E-90366761B872}">
+									<PropertyList>
+										<Property Name="FadeInDuration" Type="Real64" Value="0.0988018101900111"/>
+										<Property Name="FadeOutDuration" Type="Real64" Value="0.140073452421282"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+										<Property Name="TrimBegin" Type="Real64" Value="7.62478361998517"/>
+										<Property Name="TrimEnd" Type="Real64" Value="8.22397642184241"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>ANF003.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="1044648461"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="ANF003" ID="{276A588C-79E0-43B7-936E-90366761B872}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+				</RandomSequenceContainer>
 			</ChildrenList>
 		</WorkUnit>
 	</AudioObjects>

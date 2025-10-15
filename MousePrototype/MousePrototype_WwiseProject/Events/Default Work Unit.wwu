@@ -14,6 +14,32 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Folder Name="footsteps" ID="{BC9D0888-D344-42ED-BB1E-20F1D73B4F7C}" ShortID="476052824">
+					<ChildrenList>
+						<Event Name="Play_vulture_footstep_container" ID="{72C9BF93-9E7E-4E4B-96AB-7123277172DC}">
+							<ChildrenList>
+								<Action Name="" ID="{BC0DFEEF-24B7-4DBD-A741-9D97E1F90BD5}" ShortID="1058411949">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="vulture_footstep_container" ID="{CD4C9AED-FE24-4DFE-BEC9-FD996568DCE8}" WorkUnitID="{A4EBFF52-0A02-4328-9A6B-4C84AD43DD69}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_mouse_footstep_container" ID="{9D1F15CE-556F-4CE5-A6BB-319F7498B4DE}">
+							<ChildrenList>
+								<Action Name="" ID="{64E8869A-2A63-4CE2-A491-37BE3410F2F0}" ShortID="69862960">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="mouse_footstep_container" ID="{7C1A75AF-02E8-4C87-8678-F8B9937C3675}" WorkUnitID="{A4EBFF52-0A02-4328-9A6B-4C84AD43DD69}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

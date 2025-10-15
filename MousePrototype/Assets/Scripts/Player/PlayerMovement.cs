@@ -12,8 +12,20 @@ public class PlayerMovement : MonoBehaviour
     private float offset = 1;
     public static PlayerMovement Instance;
 
+    //for wwise "events" (sound instances)
+    [Header("Wwise Events")]
+    //footstep for mouse
+    public AK.Wwise.Event mouseFootstep;
+
+    //to prevent footstep sound overlapping
+    private bool footstepIsPlaying = false;
+    //time since last footstep sound played
+    private float lastFootstepTime = 0f;
+
     void Awake() {
         Instance = this;
+        //initialize last footstep time to current time
+        lastFootstepTime = Time.time;
     }
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
@@ -30,9 +42,29 @@ public class PlayerMovement : MonoBehaviour
         float yMove = Input.GetAxisRaw("Vertical");
         moveDir = ((transform.forward * yMove) + (transform.right * xMove)).normalized;
 
-        if (Input.GetKeyDown(KeyCode.Space) && IsGround()) {
+        if (Input.GetKeyDown(KeyCode.Space) && IsGround())
+        {
             rb.AddForce(transform.up * jump, ForceMode.Impulse);
         }
+        //play footstep sound for mouse
+        if (!footstepIsPlaying)
+        {
+            mouseFootstep.Post(gameObject);
+            //sets last footstep time to current time
+            lastFootstepTime = Time.time;
+            footstepIsPlaying = true;
+        }
+        else
+        {
+            if (moveSpeed > 1)
+            {
+                if (Time.time - lastFootstepTime > 3100 / moveSpeed * Time.deltaTime)
+                {
+                    footstepIsPlaying = false;
+                }
+            }
+        }
+        
     }
 
     void FixedUpdate() 
