@@ -1,6 +1,118 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{A4EBFF52-0A02-4328-9A6B-4C84AD43DD69}" SchemaVersion="123">
 	<AudioObjects>
-		<WorkUnit Name="Default Work Unit" ID="{A4EBFF52-0A02-4328-9A6B-4C84AD43DD69}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{A4EBFF52-0A02-4328-9A6B-4C84AD43DD69}" PersistMode="Standalone">
+			<ChildrenList>
+				<Sound Name="rain_ambience" ID="{2EC638FD-1873-4C98-9B65-437743F44C9E}" ShortID="243245494">
+					<PropertyList>
+						<Property Name="Lowpass" Type="int16">
+							<ValueList>
+								<Value>41</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{69F70639-6474-4F16-BE2A-C5F278C26A98}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B927AB30-C7F7-44C7-B0C7-E38066D45C34}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="RAINConc_InsJ_Ambience_Rain_Moderate_03_LOOP" ID="{DFA7A852-4809-467B-AD33-D6E6CA1E6E94}">
+							<Language>SFX</Language>
+							<AudioFile>RAINConc_InsJ_Ambience_Rain_Moderate_03_LOOP.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="411313536"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="RAINConc_InsJ_Ambience_Rain_Moderate_03_LOOP" ID="{DFA7A852-4809-467B-AD33-D6E6CA1E6E94}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="bird_footstep" ID="{F379EC02-79A7-4927-8E82-E6D9FEE64D1C}" ShortID="940937439">
+					<PropertyList>
+						<Property Name="Lowpass" Type="int16">
+							<ValueList>
+								<Value>8</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{69F70639-6474-4F16-BE2A-C5F278C26A98}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B927AB30-C7F7-44C7-B0C7-E38066D45C34}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="ANF003" ID="{97665745-D5F5-4EDA-8BB7-6B44A1D31637}">
+							<Language>SFX</Language>
+							<AudioFile>ANF003.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="140038498"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="ANF003" ID="{97665745-D5F5-4EDA-8BB7-6B44A1D31637}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="mouse_footstep" ID="{AB340B69-DC0C-4AB7-BBC8-544081EDEF31}" ShortID="510809239">
+					<PropertyList>
+						<Property Name="Highpass" Type="int16">
+							<ValueList>
+								<Value>37</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{69F70639-6474-4F16-BE2A-C5F278C26A98}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B927AB30-C7F7-44C7-B0C7-E38066D45C34}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="ANF108" ID="{9DCF065C-A7AD-4946-8D22-072FA0500BA7}">
+							<Language>SFX</Language>
+							<AudioFile>ANF108.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="973829193"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="ANF108" ID="{9DCF065C-A7AD-4946-8D22-072FA0500BA7}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="key_rattle" ID="{89C4230E-4AC6-409C-AA3A-B2C551D4A8EB}" ShortID="748426131">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{69F70639-6474-4F16-BE2A-C5F278C26A98}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B927AB30-C7F7-44C7-B0C7-E38066D45C34}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="Foley Chains Rattle 02" ID="{FF62623F-B9EF-4D8F-A50E-ABE4D35E1D32}">
+							<Language>SFX</Language>
+							<AudioFile>Foley Chains Rattle 02.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="532301176"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="Foley Chains Rattle 02" ID="{FF62623F-B9EF-4D8F-A50E-ABE4D35E1D32}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+			</ChildrenList>
+		</WorkUnit>
 	</AudioObjects>
 </WwiseDocument>
